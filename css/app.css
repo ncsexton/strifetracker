@@ -592,9 +592,46 @@ h3 {
 }
 
 .adjust-rows,
-.counter-list {
+.counter-list,
+.moves-board {
     display: grid;
     gap: 0.55rem;
+}
+
+.moves-board {
+    width: 100%;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.move-slot {
+    display: grid;
+    position: relative;
+    width: 100%;
+    min-width: 0;
+}
+
+.move-slot textarea {
+    display: block;
+    min-height: 5rem;
+    height: 5rem;
+    padding-right: 2.65rem;
+    resize: none;
+}
+
+.move-slot .icon-button {
+    position: absolute;
+    top: 0.45rem;
+    right: 0.45rem;
+    z-index: 1;
+    width: 34px;
+    min-width: 34px;
+    min-height: 34px;
+    padding: 0;
+}
+
+.large-notes {
+    min-height: 9rem;
+    resize: vertical;
 }
 
 .adjust-row {
@@ -807,7 +844,7 @@ h3 {
 }
 
 .action-modal {
-    width: min(860px, 100%);
+    width: min(920px, 100%);
 }
 
 .modal-actions {
@@ -1099,5 +1136,11 @@ h3 {
 
     .counter-row {
         grid-template-columns: 1fr 42px 4.8rem;
+    }
+}
+
+@media (max-width: 520px) {
+    .moves-board {
+        grid-template-columns: 1fr;
     }
 }

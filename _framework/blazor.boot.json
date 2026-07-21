@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "StrifeTracker.App",
   "resources": {
-    "hash": "sha256-T40PnSH5AmjSw2CtJOJGpjyzdPujwkM3aXIIvc6FV24=",
+    "hash": "sha256-gQ5RXfqijGyXVxe03cuV/rhaSkeKGOBYBtcR77NlE4Q=",
     "jsModuleNative": {
       "dotnet.native.8.0.28.flom6fn952.js": "sha256-YDHEHpc+/PUWFYa9BMCN3EcVlpemjKD024swcpPfMIQ="
     },
@@ -31,8 +31,8 @@
       "Microsoft.Extensions.Primitives.wasm": "sha256-6187ynEahDlSLMBvD4vAmiLpZ3clRb5xu6rM7O8AxNo=",
       "Microsoft.JSInterop.wasm": "sha256-4NHGMzwdtCcXR4aZ/SgaVrBgGByaDuOyiF0ihoaLx6w=",
       "Microsoft.JSInterop.WebAssembly.wasm": "sha256-kYGeV5fRBCdC2VZjT6rTLcR4FiKJqMqoMv6wOYf1+e0=",
-      "StrifeTracker.App.wasm": "sha256-x+GUnCk03t/HceY/C4ZuDJUKLoTTdhYlGteFS4QqFsM=",
-      "StrifeTracker.Core.wasm": "sha256-+8m7v2fcNuS8qKHd3FQqH8VtSKeroVQUMJBTjhnICM4=",
+      "StrifeTracker.App.wasm": "sha256-LYksK9jFjFIErWgUWEUyMk+l8O3ybAswlOGDDU8n3yk=",
+      "StrifeTracker.Core.wasm": "sha256-OLmJ6x1rrjmK76VM0RicT675zI9VgOCjpvUY33k8q6o=",
       "System.Collections.Concurrent.wasm": "sha256-8ZjbwNsOwHt04FOeisTkMkhBtt2EDCwOygCvDZN4k0o=",
       "System.Collections.wasm": "sha256-7Iu1JNykmdoGNiKl3HBZEse4jKSDVZB2PAmu6ZMvcB4=",
       "System.ComponentModel.wasm": "sha256-bBVZBvyqsHntsVOlb4vAcqXDlI2gVaown7hZ2V2YCXw=",
